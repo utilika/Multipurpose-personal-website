@@ -1,11 +1,22 @@
 
 
 
-.page{
+
+
+/* top-bej */
+.top-bej{
+    width: 100%;
+    max-width: 1920px;
+    height: 118px;
+    background: #E4F2FB;
+}
+
+/* big-box */
+.big-box{
     display: flex;
 }
 
-/* left-bel */
+/* left-bej */
 .left-bej{
     width: 100%;
     max-width: 375px;
@@ -639,29 +650,29 @@
 
 
 /* ------------------ */
-.contact{
+.zaebal{
     width: 100%;
     max-width: 868px;
-    padding: 80px 156px 80px 80px;
-    border-color: #00042D;;
-}
-.contact-wrapper{
+    padding: 80px 255px 0px 112px;
+    background: #00042D;
     box-sizing: border-box;
 }
-.contact-head{
-    padding-bottom: 40px;
+.zaebal-wrapper{
+    box-sizing: border-box;
+}
+.zaebal-head{
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
     line-height: 94px;
     color: #FFFFFF;
+    padding-bottom: 40px;
 }
 .line{
     padding-bottom: 40px;
 }
-.contact-text{
-    width: 631.27px;
+.huy1{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -669,26 +680,17 @@
     line-height: 30px;
     color: #FFFFFF;
 }
-.contact-text2{
-    width: 631.27px;
+.hui2{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 30px;
     color: #FFFFFF;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
-.contact-text3{
-    width: 631.27px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 30px;
-    color: #FFFFFF;
-}
-.contact-text4{
-    width: 631.27px;
+.hui3{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -699,7 +701,7 @@
 .contact-email{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 15px;
     line-height: 30px;
     color: #FFFFFF;
@@ -707,14 +709,106 @@
 .contact-website{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 15px;
     line-height: 30px;
     color: #FFFFFF;
 }
+.hui4{
+    width: 100%;
+    max-width: 480px;
+    height: 67.5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 5px;
+    color: rgba(255, 255, 255, 0.7);
+    border-bottom: 3px solid #FFFFFF;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-top: 37px;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    background: #00042D;
+}
+.hui5{
+    width: 100%;
+    max-width: 480px;
+    height: 67.5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 5px;
+    color: rgba(255, 255, 255, 0.7);
+    border-bottom: 3px solid #FFFFFF;
+    border-left: none;
+    border-right: none;
+    padding-top: 37px;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    background: #00042D;
+}
+.hui6{
+    width: 100%;
+    max-width: 480px;
+    height: 34px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 5px;
+    color: rgba(255, 255, 255, 0.7);
+    border-bottom: 3px solid #FFFFFF;
+    border-left: none;
+    border-right: none;
+    padding-top: 51px;
+    background: #00042D;
+    resize: none;
+}
+.feedback-button{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    background: #00042D;
+    border: 2px solid #FFFFFF;
+    height: 56px;
+    left: 487.73px;
+    margin-top: 57px;
+    margin-bottom: 118px;
+}
 
-
-
+/* ------------------ */
+.footer{
+    width: 100%;
+    max-width: 868px;
+    height: 160px;
+}
+.footer-link{
+    display: flex;
+    gap: 26px;
+    padding: 58px 601px 0 115px;
+    justify-content: space-between;
+}
+.footer-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    color: #00042D;
+    padding: 20px 311px 25px 114px;
+}
 
 /* right-bej */
 .right-bej{
@@ -723,3 +817,10 @@
     background: #E4F2FB;
 }
 
+/* bottom-bej */
+.bottom-bej{
+    width: 100%;
+    max-width: 1920px;
+    height: 136px;
+    background: #E4F2FB;
+}
